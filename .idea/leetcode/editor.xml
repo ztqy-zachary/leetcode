@@ -25,6 +25,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[2]两数相加.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[2]两数相加.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[2]两数相加.js" />
+              <option name="titleSlug" value="add-two-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[305]岛屿数量 II.js">
           <value>
             <LeetcodeEditor>
@@ -33,6 +44,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[305]岛屿数量 II.js" />
               <option name="titleSlug" value="number-of-islands-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[769]最多能完成排序的块.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[769]最多能完成排序的块.md" />
+              <option name="frontendQuestionId" value="leetcode.cn769" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[769]最多能完成排序的块.js" />
+              <option name="titleSlug" value="max-chunks-to-make-sorted" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[9]回文数.js">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[9]回文数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn9" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[9]回文数.js" />
+              <option name="titleSlug" value="palindrome-number" />
             </LeetcodeEditor>
           </value>
         </entry>
