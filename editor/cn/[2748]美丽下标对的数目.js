@@ -55,7 +55,32 @@
  * @param {number[]} nums
  * @return {number}
  */
+function gcd(a, b) {
+    // 计算最大公约数
+    while (b !== 0) {
+        let t = b;
+        b = a % b;
+        a = t;
+    }
+    return a;
+}
 var countBeautifulPairs = function(nums) {
+    let count = 0;
+    let n = nums.length;
 
-};
+    // 遍历数组，计算美丽下标对的数量
+    for (let i = 0; i < n; i++) {
+        for (let j = i + 1; j < n; j++) {
+            let firstDigit = parseInt(String(nums[i]).charAt(0), 10); // 获取第一个数字
+            let lastDigit = parseInt(String(nums[j]).slice(-1), 10);   // 获取最后一个数字
+
+            // 如果两个数字互质，则增加计数
+            if (gcd(firstDigit, lastDigit) === 1) {
+                count++;
+            }
+        }
+    }
+
+    return count;
+}
 //leetcode submit region end(Prohibit modification and deletion)
